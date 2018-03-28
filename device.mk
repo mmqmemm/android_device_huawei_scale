@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product-if-exists, vendor/huawei/scale/scale-vendor.mk)
-$(call inherit-product-if-exists, vendor/huawei/msm8909-common/msm8909-common-vendor.mk)
+$(call inherit-product, vendor/huawei/scale/scale-vendor.mk)
+$(call inherit-product, vendor/huawei/msm8909-common/msm8909-common-vendor.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8909
