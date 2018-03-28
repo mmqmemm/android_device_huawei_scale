@@ -116,8 +116,8 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/bin/mm-qcamera-daemon|libqcamerasvr-c++.so
 
 # SELinux
-BOARD_SEPOLICY_DIRS += \
-    $(VENDOR_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    $(VENDOR_PATH)/sepolicy
 
 # Sensors
 USE_SENSOR_MULTI_HAL := true
