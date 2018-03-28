@@ -61,6 +61,7 @@ TARGET_USE_COMPAT_GRALLOC_ALIGN := true
 TARGET_LIBINIT_MSM8909_DEFINES_FILE := $(VENDOR_PATH)/init/init_scale.cpp
 
 # Kernel
+BOARD_KERNEL_IMAGE_NAME := zImage
 TARGET_KERNEL_SOURCE := kernel/huawei/msm8916
 TARGET_KERNEL_CONFIG := lineageos_scale_defconfig
 
