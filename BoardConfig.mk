@@ -108,6 +108,11 @@ endif
 # RIL
 BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_11
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /system/lib/libcutils.so|libshim_cutils.so \
+    /system/bin/mm-qcamera-daemon|libqcamerasvr-c++.so
+
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     $(VENDOR_PATH)/sepolicy
