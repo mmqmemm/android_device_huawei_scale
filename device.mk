@@ -63,10 +63,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/acdb/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     $(LOCAL_PATH)/audio/acdb/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     $(LOCAL_PATH)/audio/acdb/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    $(LOCAL_PATH)/audio/acdb/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
-    $(LOCAL_PATH)/audio/acdb/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    $(LOCAL_PATH)/audio/acdb/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-    $(LOCAL_PATH)/audio/acdb/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml \
     $(TOPDIR)frameworks/av/services/audiopolicy/config/a2dp_audio_policy_configuration.xml:/system/etc/a2dp_audio_policy_configuration.xml \
