@@ -132,6 +132,13 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.usb.id.ums_adb=1038 \
     ro.usb.vid=12d1
 
+# Debugging
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=mtp,adb \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1
 # WiFi
 PRODUCT_PACKAGES += \
     libwcnss_qmi
