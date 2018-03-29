@@ -871,7 +871,6 @@ int QCameraHeapMemory::getMatchBufIndex(const void *opaque,
  * RETURN     : none
  *==========================================================================*/
 QCameraStreamMemory::QCameraStreamMemory(camera_request_memory getMemory,
-        void* cbCookie,
         bool cached,
         QCameraMemoryPool *pool,
         cam_stream_type_t streamType)
@@ -1091,10 +1090,10 @@ void *QCameraStreamMemory::getPtr(uint32_t index) const
  *
  * RETURN     : none
  *==========================================================================*/
-QCameraVideoMemory::QCameraVideoMemory(camera_request_memory getMemory,
-                                       void* cbCookie,
+QCameraVideoMemory::QCameraVideoMemory(camera_request_memory memory,
+				       void* cbCookie,
                                        bool cached)
-    : QCameraStreamMemory(getMemory, cbCookie, cached)
+    : QCameraStreamMemory(memory, cbCookie, cached)
 {
     memset(mMetadata, 0, sizeof(mMetadata));
 }

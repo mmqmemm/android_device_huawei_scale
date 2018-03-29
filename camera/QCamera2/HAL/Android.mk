@@ -47,8 +47,8 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/../stack/common \
 	frameworks/native/include \
         frameworks/native/include/media/openmax \
-	frameworks/native/libs/nativebase/include \
-	frameworks/native/libs/nativewindow/include \
+        frameworks/native/libs/nativebase/include \
+        frameworks/native/libs/nativewindow/include \
         $(call project-path-for,qcom-display)/libgralloc \
         $(call project-path-for,qcom-display)/libqdutils \
         $(call project-path-for,qcom-media)/libstagefrighthw \

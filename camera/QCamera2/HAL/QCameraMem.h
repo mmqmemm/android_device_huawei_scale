@@ -187,7 +187,7 @@ protected:
 class QCameraVideoMemory : public QCameraStreamMemory {
 public:
     QCameraVideoMemory(camera_request_memory getMemory,
-           void* cbCookie, bool cached);
+            void* cbCookie, bool cached);
     virtual ~QCameraVideoMemory();
 
     virtual int allocate(uint8_t count, size_t size);
