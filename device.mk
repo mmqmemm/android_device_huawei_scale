@@ -90,10 +90,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/izat.conf:system/etc/izat.conf \
     $(LOCAL_PATH)/gps/sap.conf:system/etc/sap.conf
 
-# HIDL
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml
-
 # Libion "Ion helper"
 PRODUCT_PACKAGES += \
     libion
@@ -148,6 +144,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb \
     persist.service.adb.enable=1 \
     persist.service.debuggable=1
+
 # WiFi
 PRODUCT_PACKAGES += \
     libwcnss_qmi
