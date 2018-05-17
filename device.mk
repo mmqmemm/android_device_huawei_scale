@@ -70,10 +70,10 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl-legacy \
-    camera.device@1.0-impl-legacy \
+    android.hardware.camera.provider@2.4-impl \
+    camera.device@1.0-impl \
     camera.msm8909 \
-    Camera2
+    Snap
 
 # Compat symbols
 PRODUCT_PACKAGES += \
