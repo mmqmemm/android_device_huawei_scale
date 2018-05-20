@@ -4,7 +4,7 @@
     "target_path": "device/huawei/msm8909-common"
   },
   {
-    "repository": "android_kernel_huawei_msm8909",
-    "target_path": "kernel/huawei/msm8909"
+    "repository": "android_kernel_huawei_msm8919",
+    "target_path": "kernel/huawei/msm8919"
   }
 ]

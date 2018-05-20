@@ -41,7 +41,7 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # CMHW
 BOARD_HARDWARE_CLASS += \
-    $(VENDOR_PATH)/cmhw
+    $(VENDOR_PATH)/mkhw
 TARGET_TAP_TO_WAKE_NODE := "/sys/touch_screen/easy_wakeup_gesture"
 
 # Flags

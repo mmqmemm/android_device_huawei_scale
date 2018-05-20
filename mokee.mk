@@ -20,10 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/huawei/scale/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.mk.maintainer=runner85sx
 
 PRODUCT_DEVICE := scale
-PRODUCT_NAME := lineage_scale
+PRODUCT_NAME := mk_scale
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := scale
 PRODUCT_MANUFACTURER := HUAWEI
