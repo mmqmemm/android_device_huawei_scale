@@ -113,7 +113,8 @@ BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_11
 TARGET_LD_SHIM_LIBS := \
     /system/lib/libcutils.so|libshim_cutils.so \
     /system/vendor/lib/libmmcamera2_imglib_modules.so|libshim_camera.so \
-    /system/vendor/bin/mm-qcamera-daemon|libqcamerasvr-c++.so
+    /system/vendor/bin/mm-qcamera-daemon|libqcamerasvr-c++.so \
+    /system/vendor/lib/libmmcamera_wavelet_lib.so|libshim_waveletcamera
 
 # SELinux
 #BOARD_SEPOLICY_DIRS += \
