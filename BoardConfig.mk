@@ -114,7 +114,13 @@ TARGET_LD_SHIM_LIBS := \
     /system/lib/libcutils.so|libshim_cutils.so \
     /system/vendor/lib/libmmcamera2_imglib_modules.so|libshim_camera.so \
     /system/vendor/bin/mm-qcamera-daemon|libqcamerasvr-c++.so \
-    /system/vendor/lib/libmmcamera_wavelet_lib.so|libshim_waveletcamera
+    /system/vendor/lib/libmmcamera_wavelet_lib.so|libshim_waveletcamera \
+    /system/vendor/lib/libqomx_jpegenc.so|libboringssl-compat.so \
+    /system/vendor/lib/libmmqjpeg_codec.so|libboringssl-compat.so
+
+# Sp-shim
+TARGET_LD_PRELOAD := \
+    /system/lib/libboringssl-compat.so
 
 # SELinux
 #BOARD_SEPOLICY_DIRS += \
