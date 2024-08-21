@@ -1,4 +1,4 @@
-## aosp device tree for Huawei Honor 4A and Huawei y6 2015.
+## device tree for Huawei Honor 4A and Huawei y6 2015.
 =====================================
 
 Basic   | Spec Sheet
@@ -29,4 +29,4 @@ SCL-AL00,SCL-CL00,SCL-TL00,SCL-TL10
 Huawei y6 2015
 
 model：
-SCL-L01,SCL-L02,scl-L03,SCL-L04,SCL-L21,SCL-U03,SCL-U21,SCL-U23,SCL-U31,SCC-U21
+SCL-L01,SCL-L02,SCL-L03,SCL-L04,SCL-L21,SCL-U03,SCL-U21,SCL-U23,SCL-U31,SCC-U21
