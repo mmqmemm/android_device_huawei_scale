@@ -16,3 +16,6 @@ Display | 720 x 1280 pixels, 5.0" / 5.5"
 Rear Camera  | 8.0 MP, LED flash
 Front Camera | 2.0 MP
 
+## Device picture
+![honor 4a]([https://www.gsmarena.com/huawei_y6-pictures-7440.php](https://www.4gltemall.com/media/catalog/product/cache/1/image/363x363/9df78eab33525d08d6e5fb8d27136e95/h/o/honor_4a_2_.jpg))
+![huawei y6](https://www.gsmarena.com/huawei_y6-pictures-7440.php)
