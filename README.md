@@ -22,7 +22,8 @@ Huawei Honor 4A
 ![honor 4a](https://tse3-mm.cn.bing.net/th/id/OIP-C.2LRV1eu6pEbh6ce-iLoeOQAAAA?w=142&h=150&c=7&r=0&o=5&dpr=1.3&pid=1.7)
 
 model：
-SCL-AL00 SCL-CL00 scl-TL00 SCL-TL10
+SCL-AL00 SCL-CL00 SCL-TL00 SCL-TL10
+
 
 Huawei y6 2015
 
