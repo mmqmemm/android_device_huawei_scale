@@ -7,7 +7,7 @@ CPU     | Quad-core 1.2 GHz ARM® Cortex™ A7
 CHIPSET | Qualcomm Snapdragon 210 (MSM8909)
 GPU     | Adreno 304
 Memory  | 2 GB
-Shipped Android Version | EMUI3.1 (Android 5.1.1)
+Shipped Android Version | EMUI 3.1 (Android 5.1.1)
 Storage | 8 GB
 MicroSD | Up to 128 GB
 Battery | 2300 mAh (removable)
