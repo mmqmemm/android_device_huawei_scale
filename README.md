@@ -1,11 +1,10 @@
-
-Device configuration for Huawei Honor 4A and Huawei y6 2015-.
+## aosp device tree for Huawei Honor 4A and Huawei y6 2015.
 =====================================
 
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Quad-core 1.2 GHz ARM® Cortex™ A7
-CHIPSET | Qualcomm MSM8909 Snapdragon 210
+CHIPSET | Qualcomm Snapdragon 210 (MSM8909)
 GPU     | Adreno 304
 Memory  | 2 GB
 Shipped Android Version | EMUI3.1 (Android 5.1.1)
